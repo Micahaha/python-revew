@@ -38,7 +38,7 @@ first = input("Please enter your first name: ")
 last = input("Please enter your last name: ")
 print(first, last)
 
-age = input("Please enter your age: ")
+age = int(input("Please enter your age: "))
 print("Hello %s %s. You are %s years old." % (first, last, age))
 print("Hello %s %s. You are %.2f years old." % (first,last, age))
 
