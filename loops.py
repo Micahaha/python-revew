@@ -52,6 +52,20 @@ while (i > 0):
 print("blastoff!")
 
 
+#4. Write a while loop that prints out the odd numbers
+# between 1 and 10
+
+i = 10
+
+while i > 0:
+    if i % 2 != 0:
+        print(i)   
+    i-=1
 
 
+# 5. Rewrite the while loop above so that it outputs only the nums
+# that are less than 6.
 
+while i < 6:
+    print(i)
+    i-=1

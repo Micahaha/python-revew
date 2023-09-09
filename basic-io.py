@@ -64,4 +64,17 @@ print("Hello %s %s. your phone number is %s." % (fname, lname, tn))
 
 # We can take in a variable number of inputs at a time.
 x = [int(x) for x in input("Enter multiple numbers seeprated by a space: ").split()]
-print("Numbers are: ", x)    
+print("Numbers are: ", x)  
+
+
+# 1. Write the line of code that prompts the user to input their
+# first and last names and age seperated by a space. You muse use the split
+# function to seperate the input values and then you must store them in variables.
+
+name, age, lastname = input('Enter your Name, Age and last name: ').split()
+
+
+# 2. Write the line of code that then outputs.
+# Hello <first name> <last name>. your age is <age>.
+# You must use thw string % operator to format the first and last names and age. 
+print('Hello %s %s. Your age is %s' % (name, lastname, age))
